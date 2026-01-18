@@ -94,7 +94,7 @@ interpretability.
 ## Sources
 
 - **National Air Quality Index (CPCB, India)**: https://cpcb.nic.in/National-Air-Quality-Index/
-- **Air Quality Index (AirNow, U.S. EPA)**: https://www.airnow.gov/aqi/
+- **Air Quality Index (AirNow, U.S. EPA)**: [https://www.airnow.gov/aqi/](https://www.airnow.gov/aqi/aqi-basics/)
 
 
 
