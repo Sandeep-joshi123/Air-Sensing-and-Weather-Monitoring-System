@@ -56,6 +56,13 @@ Unlike centralized monitoring stations that depend on spatial interpolation,
 this system operates as a **distributed localized sensing node**, enabling
 scalable deployment for high-resolution environmental monitoring.
 
+The prototype is designed as a **dual-powered system**, capable of operating
+both on **rechargeable battery power** and through an **external adapter-based
+supply**. This dual-mode power architecture enables flexible deployment across
+indoor and outdoor environments, ensuring uninterrupted operation during
+mobility as well as long-duration stationary monitoring.
+
+
 ---
 
 ## Key Features
@@ -67,6 +74,8 @@ scalable deployment for high-resolution environmental monitoring.
 - Cloud connectivity via Wi-Fi
 - Mobile application for remote monitoring and data access
 - Portable, low-power, and modular system design
+- Dual-powered operation using rechargeable batteries and external adapter supply
+
 
 ---
 
@@ -108,7 +117,12 @@ signal integrity, and deployment reliability**. It consists of:
   range, and long-term stability
 - A microcontroller unit for data acquisition and communication
 - Signal conditioning and noise mitigation circuitry
-- Power management circuitry optimized for portable operation
+- **Dual power supply architecture supporting both rechargeable battery
+  operation and external adapter input**
+- **Rechargeable battery pack enabling portable and uninterrupted operation**
+- Power management circuitry optimized for efficiency, charging safety, and
+  portable use
+
 
 Component selection rationale, circuit diagrams, and hardware design
 considerations are documented in the `hardware/` directory.
