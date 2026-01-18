@@ -15,8 +15,7 @@ reliability and consistency, the prototype employs **industry-grade
 environmental sensors** rather than hobby-grade modules, enabling improved
 accuracy, stability, and repeatability suitable for real-world deployments.
 
-Air Quality Index (AQI) values are computed using **government-accepted standard
-formulations**
+
 
 This project was shortlisted among the **Top 17 prototypes out of 150+ submissions**
 and secured **8th place** under the *Mentored Student Projects* category at
@@ -105,19 +104,6 @@ comparable with official air quality reports and public health advisories**.
 
 ---
 
-## System Architecture
-The system follows a layered architecture:
-1. **Sensing Layer** – Industry-grade sensors for environmental data acquisition  
-2. **Processing Layer** – Microcontroller-based data processing and filtering  
-3. **AQI Computation Layer** – Standardized AQI calculation using CPCB/AirNow models  
-4. **Visualization Layer** – Local OLED-based real-time display  
-5. **Communication Layer** – Wi-Fi-based data transmission to the cloud  
-6. **Application Layer** – Mobile application for real-time and historical data visualization  
-
-Detailed block diagrams, data flow models, and architectural documentation are
-available in the `docs/` directory.
-
----
 
 ## Hardware Design
 The hardware subsystem is designed with a focus on **measurement accuracy,
@@ -133,20 +119,6 @@ considerations are documented in the `hardware/` directory.
 
 ---
 
-## Firmware Architecture
-The firmware follows a modular and scalable design:
-- Sensor abstraction and driver layers
-- Periodic sampling and synchronized data acquisition
-- Noise filtering and data smoothing algorithms
-- Fault detection, error handling, and data validation
-- Communication stack for cloud connectivity
-- Display management for local visualization
-
-Firmware source code and architectural documentation are available in the
-`firmware/` directory.
-
----
-
 ## Cloud & Mobile Application
 The system supports cloud-based data logging and visualization:
 - Structured JSON-based data transmission
@@ -155,14 +127,6 @@ The system supports cloud-based data logging and visualization:
 
 Cloud API design, database schema, and application architecture are documented
 in the `cloud/` and `mobile_app/` directories respectively.
-
----
-
-## Calibration & Validation
-Sensor outputs were validated against reference instruments under controlled
-conditions. Calibration procedures, error analysis, and observed deviations are
-documented in `docs/calibration_validation.md`. Experimental datasets and sample
-logs are provided in the `data/` directory.
 
 ---
 
@@ -179,15 +143,6 @@ Performance graphs, test cases, and result analysis are available in the
 
 ---
 
-## Applications
-- Micro-level environmental monitoring in homes, classrooms, laboratories,
-  hospitals, and workplaces
-- Identification of localized air quality and noise pollution hotspots
-- Indoor versus outdoor environmental comparison
-- Personalized, health-aware environmental monitoring
-- Smart campus and smart city deployments using distributed sensing nodes
-
----
 
 ## Conference Recognition
 - **Event:** IASF 2026 & ICTIEE 2026  
@@ -202,15 +157,6 @@ This project aligns with **UN SDG 3 – Good Health and Well-Being** by enabling
 localized environmental awareness and supporting early risk reduction through
 continuous monitoring.
 
----
-
-## Future Scope
-- Advanced calibration and long-term sensor drift compensation
-- Distributed multi-node deployments for spatial environmental analysis
-- Machine learning-based AQI trend prediction
-- Integration with low-power wide-area networks (LPWAN)
-- Over-the-air (OTA) firmware updates
-- Long-term environmental data analytics and visualization
 
 ---
 
@@ -220,10 +166,10 @@ continuous monitoring.
 - KLE Technological University  
 
 ---
+For a detailed, chapter-wise technical study of the system, readers are
+encouraged to refer to the project Wiki.
+https://github.com/<your-username>/Air-Sense-Weather-Monitoring-System/wiki
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for
-details.
 
 ---
 
