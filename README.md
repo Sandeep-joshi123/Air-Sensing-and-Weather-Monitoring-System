@@ -44,6 +44,14 @@ awareness and early risk identification.
 
 ---
 
+## Project Evolution
+This work builds upon an earlier air quality monitoring prototype initially developed by the team as a low-cost, functional proof of concept.
+Following the selection of the project for IASF 2026, the system was significantly redesigned and enhanced, resulting in the present Air Sense & Weather Monitoring System. The upgraded prototype incorporates industry-grade sensors, improved hardware design, standardized AQI computation methodologies, enhanced power management, and a more robust cloud-connected architecture suitable for real-world deployment.
+The initial prototype served as a foundational platform for learning and validation, while the current system represents a research-oriented, deployment-ready evolution of the original idea.
+
+
+---
+
 ## System Overview
 The system integrates multiple **industry-grade environmental sensors** with a
 microcontroller-based embedded platform. Sensor data is sampled periodically,
