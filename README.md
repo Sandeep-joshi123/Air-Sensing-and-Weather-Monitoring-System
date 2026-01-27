@@ -178,7 +178,7 @@ continuous monitoring.
 ---
 For a detailed, chapter-wise technical study of the system, readers are
 encouraged to refer to the project Wiki.
-[https://github.com/<your-username>/Air-Sense-Weather-Monitoring-System/wiki](https://github.com/Sandeep-joshi123/Air-Sensing-and-Weather-Monitoring-System/wiki)
+(https://github.com/Sandeep-joshi123/Air-Sensing-and-Weather-Monitoring-System/wiki)
 
 
 ---
